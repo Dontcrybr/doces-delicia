@@ -44,6 +44,11 @@ export default function Header() {
         {/* Menu Desktop */}
         <nav className="hidden sm:flex sm:items-center sm:gap-6">
           <ul className="flex gap-6 text-purple-800 font-medium">
+              <li>
+              <Link href="/" className="hover:text-purple-500">
+                Início
+              </Link>
+            </li>
             <li>
               <Link href="/tradicionais" className="hover:text-purple-500">
                 Brigadeiros Tradicionais
